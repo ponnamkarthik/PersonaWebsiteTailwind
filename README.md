@@ -1,24 +1,16 @@
-# persona
+# Persona Template build with TailWind & Vue 3
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Demo
 
-### Compiles and minifies for production
-```
-npm run build
-```
+https://persona-tailwind.netlify.app/
 
-### Lints and fixes files
-```
-npm run lint
-```
+## UI
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![ui](https://github.com/ponnamkarthik/PersonaWebsiteTailwind/raw/main/images/ui.png)
+
+## UI Credits
+
+https://www.uplabs.com/rhagency
+
+https://dribbble.com/rhagency

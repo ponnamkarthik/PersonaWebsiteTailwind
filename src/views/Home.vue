@@ -27,7 +27,7 @@
           </p>
         </div>
 
-        <div class="bg-brand-medium p-8 rounded-lg mx-10 my-8 items-start">
+        <div class="bg-brand-medium p-8 rounded-lg mx-10 md:mx-3 my-8 items-start">
           <p class="text-left mt-1">
             <span class="font-bold">Age: </span>
             <span>24</span>
@@ -40,7 +40,7 @@
             <span class="font-bold">Location: </span>
             <span>Hyderabad, India</span>
           </p>
-          <div class="flex flex-wrap mt-4 gap-x-2 gap-y-2">
+          <div class="grid grid-cols-3 mt-4 gap-x-2 gap-y-2">
             <p class="bg-brand-dark text-white text-sm px-4 py-1 rounded">
               Java
             </p>
@@ -239,25 +239,35 @@
             Frustrations
           </h1>
           <div class="mt-6 flex flex-wrap w-full gap-y-6">
-            <div class="w-1/3">
+            <div class="w-1/3 p-1">
               <img
-                class="h-24"
-                src="https://www.flaticon.com/svg/vstatic/svg/888/888846.svg?token=exp=1614090123~hmac=cfb62234ea335573d66a0e24d38b9e0f">
+                class="w-24"
+                src="@/assets/images/apple.png">
             </div>
-            <div class="w-1/3 ">
+            <div class="w-1/3 p-1">
               <img
-                class="h-24"
-                src="https://www.flaticon.com/svg/vstatic/svg/888/888853.svg?token=exp=1614090123~hmac=177588ea27fefbb7d9775e3fc8ca126e">
+                class="w-24"
+                src="@/assets/images/slack.png">
             </div>
-            <div class="w-1/3 ">
+            <div class="w-1/3 p-1">
               <img
-                class="h-24"
-                src="https://www.flaticon.com/svg/vstatic/svg/888/888839.svg?token=exp=1614090123~hmac=86a8edc1f9ff11c0da80666c6629f1e2">
+                class="w-24"
+                src="@/assets/images/facebook.png">
             </div>
-            <div class="w-1/3">
+            <div class="w-1/3 p-1">
               <img
-                class="h-24"
-                src="https://www.flaticon.com/svg/vstatic/svg/888/888852.svg?token=exp=1614090123~hmac=1b31406df9b68a5b6b3078eea4887a8c">
+                class="w-24"
+                src="@/assets/images/gmail.png">
+            </div>
+            <div class="w-1/3 p-1">
+              <img
+                class="w-24"
+                src="@/assets/images/twitter.png">
+            </div>
+            <div class="w-1/3 p-1">
+              <img
+                class="w-24"
+                src="@/assets/images/youtube.png">
             </div>
           </div>
         </div>
