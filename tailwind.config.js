@@ -1,6 +1,10 @@
 module.exports = {
-  purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
-  darkMode: false, // or 'media' or 'class'
+  purge: {
+    content: [
+      './**/*.html',
+    ],
+  },
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -9,6 +13,16 @@ module.exports = {
           medium: '#FFD8C9',
           dark: '#C40007',
         },
+        dark: {
+          brand: {
+            DEFAULT: '#00adb5',
+            medium: '#00adb5',
+            dark: '#00adb5',
+            bg: '#303841',
+            bglight: '#3a4750',
+            barlight: '#eeeeee'
+          }
+        }
       },
       margin: {
         'p-10': '10%',
@@ -40,4 +54,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-};
+}

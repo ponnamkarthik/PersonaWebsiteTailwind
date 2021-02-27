@@ -1,5 +1,4 @@
-# Persona Template build with TailWind & Vue 3
-
+# Persona Template build with TailWind (Light & Dark Mode)
 
 ## Demo
 
@@ -9,7 +8,10 @@ https://persona-tailwind.netlify.app/
 
 ![ui](https://github.com/ponnamkarthik/PersonaWebsiteTailwind/raw/main/images/ui.png)
 
-## UI Credits
+
+![ui-demo](https://github.com/ponnamkarthik/PersonaWebsiteTailwind/raw/main/images/ui-demo.gif)
+
+## Design File Credits
 
 https://www.uplabs.com/rhagency
 
