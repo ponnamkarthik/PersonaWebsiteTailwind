@@ -10,12 +10,12 @@
 </head>
 <!-- 🌜 🌞 -->
 <body>
-    <div class="home bg-white h-full dark:bg-dark-brand-bg dark:text-white">
+    <div class="home bg-white h-full dark:bg-dark-brand-bg dark:text-white transform transition-colors">
         <div class="grid grid-cols-1 gap-y-8 md:grid-cols-3 gap-x-4 p-6">
 
             <div class="relative">
-                <div class="w-14 bg-gray-300 absolute right-4 top-4 rounded-full p-1" id="theme-toggle">
-                    <div class="w-6 bg-white h-6 rounded-full absolute" id="theme-toggle-switch"></div>
+                <div class="w-14 bg-gray-300 absolute right-4 top-4 rounded-full p-1 cursor-pointer" id="theme-toggle">
+                    <div class="w-6 bg-white h-6 rounded-full absolute transform transition-transform" id="theme-toggle-switch"></div>
                     <div class="flex flex-row justify-between">
                         <span>🌜</span>
                         <span>🌞</span>
@@ -288,14 +288,14 @@
         function setLightTheme() {
             document.documentElement.classList.remove('dark')
             localStorage.theme = 'light';
-            document.getElementById('theme-toggle-switch').classList.remove('right-1')
-            document.getElementById('theme-toggle-switch').classList.add('left-1')
+            document.getElementById('theme-toggle-switch').classList.remove('translate-x-6')
+            document.getElementById('theme-toggle-switch').classList.add('translate-x-0')
         }
         function setDarkTheme() {
             document.documentElement.classList.add('dark')
             localStorage.theme = 'dark';
-            document.getElementById('theme-toggle-switch').classList.remove('left-1')
-            document.getElementById('theme-toggle-switch').classList.add('right-1')
+            document.getElementById('theme-toggle-switch').classList.remove('translate-x-0')
+            document.getElementById('theme-toggle-switch').classList.add('translate-x-6')
         }
         function intialTheme() {
             if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
